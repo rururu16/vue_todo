@@ -11,5 +11,14 @@
  * It is generally better to create a new file per style scope.
  *
  *= require_tree .
+ *= require material_icons
  *= require_self
  */
+
+/* Materialize */
+// @import "materialize/components/color";
+@import 'materialize';
+// @import 'material_icons';
+
+$primary-color: color("teal", "accent-3") !default;
+$secondary-color: color("cyan", "base") !default;

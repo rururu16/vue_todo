@@ -40,6 +40,9 @@ gem 'bootsnap', '>= 1.1.0', require: false
 
 gem 'haml-rails'
 gem 'foreman'
+gem 'jquery-rails'
+gem 'materialize-sass'
+gem 'material_icons'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
